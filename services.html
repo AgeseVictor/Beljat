@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beljat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="page.css">
+
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container1">
+        <a href="#" class="logo">Beljat<span>cycle</span></a>
+        <img
+          id="mobile-cta"
+          class="mobile-menu-exit"
+          src="/Assets/hamburger.png"
+          alt=""
+        />
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="/Assets/close.png" alt="" />
+
+          <ul class="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+
+          <ul class="secondary-nav">
+            <li class="rounded"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      <section>
+        <div class="content1">
+          <div class="serviceshero">
+            <div class="servicesheroholder">
+              <div class="servicesherotext">
+                <h1>
+                  Beljat 
+                  <span style="color: #27AA83"> Cycle </span>
+                </h1>
+                <p>
+                  Creating a sustainability mentality in the
+                  minds  of people in the light of waste management 
+                  and  with particular emphasis on recycling.
+                </p>
+              </div>
+              <div class="servicesheroimage"><img class="servicesheroimage" src="/Assets/3D-illustrations-gabriel-pinheiro.com (2).svg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content">
+          <h1 style="text-align:center ;">What are we offering you?</h1>
+          <div class="servicesofferholder">
+            <div class="servicesoffers">
+              <h3>Income Plan;</h3>
+              <p>designed for people who want actual cash for their waste.</p>
+            </div> 
+           
+            <div class="servicesoffers">
+              <h3>Employee plan;</h3>
+              <p> designed for corporate organizations to help cover some parts of employee remuneration.
+                </p>
+            </div> 
+            <div class="servicesoffers">
+              <h3>Student Plan;</h3>
+              <p>designed to help with tuition fees.</p>
+            </div> 
+           
+            <div class="servicesoffers">
+              <h3>Investment Plan;</h3>
+              <p>designed to help individuals meet up financial milestones.</p>
+            </div>
+            <div class="servicesoffers">
+              <h3>Commodity Plan;</h3>
+              <p>designed to help people get basic supplies and household items.</p>
+            </div>
+<!--             
+            <div class="offers" id="edit">
+              <h3>These product offerings help the Waste Bank know the manner in which value is appropriated to our customers. A customer is at liberty to switch from one product offering to another but with due consultation with management. </h3>
+            </div> -->
+
+            <p class="servicesproduct">These product offerings help the Waste Bank know the manner in which value is appropriated to our customers. A customer is at liberty to switch from one product offering to another but with due consultation with management. </h3>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="footer">
+          <div class="primaryfooter">
+          <div class="minifooter">
+            <div class="foot1">
+              <div class="footeritem">
+                <ul>
+                  <li><p>About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our impact</a></li>
+                  <li><a href="#">Stewardship</a></li>
+                  <li><a href="#">Awards</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>individuals</a></li>
+                  <li><a href="#">Contribute</a></li>
+                  <li><a href="#">Membership</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>Businesses</a></li>
+                  <li><a href="#">Partner with us</a></li>
+                  <li><a href="#">Our partners</a></li>
+                  <li><a href="#">impact program</a></li>
+                  <li><a href="#">Supporter program</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>Resources</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                  <li><a href="#">Cookie preference</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="foot2">
+              <p>JOIN THE MOVEMENT</p>
+              <a href="#" class="btn">Become a steward</a>
+              <p style="text-transform:none;">Start stopping ocean plastic and receive a digital certificate with your name on it!</p>
+            </div>
+          </div>
+          <hr>
+          <div class="last">
+           <h3>&copy;2022 Beljat Cycle. All rights reserved.</h3>
+
+          </div>
+        </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+
+      const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit')
+
+        mobileBtn.addEventListener('click',() => {
+          nav.classList.add('menu-btn');
+        })
+
+       mobileBtnExit.addEventListener('click',() => {
+          nav.classList.remove('menu-btn');
+        })
+    </script>
+  </body>
+</html>

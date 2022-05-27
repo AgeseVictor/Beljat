@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beljat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="page.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-wrapper">
+        <header></header>
+      </div>
+      <div class="navbar">
+        <div class="container1">
+          <a href="#" class="logo">Beljat<span>cycle</span></a>
+          <img
+            id="mobile-cta"
+            class="mobile-menu-exit"
+            src="/Assets/hamburger.png"
+            alt=""
+          />
+          <nav>
+            <img id="mobile-exit" class="mobile-menu-exit" src="/Assets/close.png" alt="" />
+  
+            <ul class="primary-nav">
+              <li ><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+  
+            <ul class="secondary-nav">
+              <li class="current" class="rounded"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <section>
+        <div class="content1">
+          <div class="contacthero">
+            <div class="contactheroholder">
+              <div class="contactherotext">
+                <h1>
+                    Customer 
+                    <span style="color: #074545"> Service </span>
+                </h1>
+                <p style="font-size: 35px; font-weight:bold">+1234 567 8910
+                </p>
+                <div class="mailus">
+                    <div class="mailholder">
+                       
+<!--                       
+                      <form action="">
+                            <p>
+                                <h2>HAVE SOME QUESTIONS?</p><br>
+                                <label for="name"></label><br>
+                                <input type="text" name="name" placeholder="First Name" id="name">
+    
+                                <label for="phone"></label><br>
+                                <input type="tel" name="phone" placeholder="Last Name" id="phone">
+
+                                <label for="phone"></label><br>
+                                <input type="tel" name="phone" placeholder="What's your email?" id="phone">
+    
+                                <label for="message"></label><br>
+                                <textarea name="mesaage" id="message" placeholder="Your questions..." cols="30" rows="10"></textarea><br>
+    
+                                <button>Send us a message</button>
+                            </p>
+                        </form> -->
+
+
+                    </div>
+                </div>
+              </div>
+              <div class="contactheroimage"><img class="contactheroimage" src="/Assets/3D-illustrations-gabriel-pinheiro.com (1).svg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="footer">
+          <div class="primaryfooter">
+          <div class="minifooter">
+            <div class="foot1">
+              <div class="footeritem">
+                <ul>
+                  <li><p>About</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our impact</a></li>
+                  <li><a href="#">Stewardship</a></li>
+                  <li><a href="#">Awards</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>individuals</a></li>
+                  <li><a href="#">Contribute</a></li>
+                  <li><a href="#">Membership</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>Businesses</a></li>
+                  <li><a href="#">Partner with us</a></li>
+                  <li><a href="#">Our partners</a></li>
+                  <li><a href="#">impact program</a></li>
+                  <li><a href="#">Supporter program</a></li>
+                </ul>
+              </div>
+              <div class="footeritem">
+                <ul>
+                  <li><p>Resources</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                  <li><a href="#">Cookie preference</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="foot2">
+              <p>JOIN THE MOVEMENT</p>
+              <a href="#" class="btn">Become a steward</a>
+              <p style="text-transform:none;">Start stopping ocean plastic and receive a digital certificate with your name on it!</p>
+            </div>
+          </div>
+          <hr>
+          <div class="last">
+           <h3>&copy;2022 Beljat Cycle. All rights reserved.</h3>
+
+          </div>
+        </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+
+      const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit')
+
+        mobileBtn.addEventListener('click',() => {
+          nav.classList.add('menu-btn');
+        })
+
+       mobileBtnExit.addEventListener('click',() => {
+          nav.classList.remove('menu-btn');
+        })
+    </script>
+  </body>
+</html>

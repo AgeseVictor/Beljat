@@ -1,0 +1,243 @@
+@media screen and(min-width:768px) {
+
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        html{
+            margin: 0%;
+            padding: 0%;
+        }
+        .nav-wrapper{
+            padding: 1rem;
+            display: flex;
+            place-content: space-between;
+            box-shadow: 0px 4px 5px rgba(111, 111, 111, 0.3),0px 6px 8px rgba(245, 245, 245, 0.19);
+            width: 100%; 
+            height: 40px;
+            position: fixed;
+            background-color: white;
+
+
+        }
+        .nav-wrapper a{
+            text-decoration: none;
+            line-height: 60px;
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+            font-family: poppins;
+            padding-left: 20px;
+
+
+        }
+        .nav-wrapper img{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            padding-right: 22px;
+        }
+        .content1{
+            padding:150px 10px 50px 20px ;
+            height: 100%;
+            width: 100%;
+            text-align:left;
+        }
+        .heroimage img{
+            width: 100%;
+        }
+
+        .herotext{
+            font-family: poppins;
+            text-align: left;
+            padding-left: 15px;
+            max-width: 300px;
+        }
+        .herotext h1{
+            line-height: .1em;
+        }
+        .content2{
+            padding:1rem ;
+            /* background-color:black; */
+            background-color: white;
+            width: 100%;
+            color: #1a3a3a;
+        }
+        .subhero{
+            background-color: #1a3a3a;
+            border-radius: 20px;
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3),0px 6px 8px rgba(245, 245, 245, 0.19);
+            padding: 20px;
+        }
+
+        .item{
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 150%;
+        }
+
+        .content3{
+            padding: 1rem;
+            line-height: 150%;
+            color: black;
+            background-color: whitesmoke;
+            width: 100%;
+        }
+        .article1 li{
+            /* color: black; */
+            color: #1a3a3a;
+
+        }
+        .content4{
+            padding: 1rem;
+            line-height: 150%;
+            font-size: 16px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+        #footer{
+            width: 100%;
+            padding:1rem ;
+            background-color:#1a3a3a;
+            /* background-color: white; */
+            width: 100%;
+        }
+        .footeritem, ul{
+            color: white;
+            list-style-type:none;
+            margin: 0%;
+            padding: 0%;
+        }
+        .footeritem p{
+            font-size: 12px;
+            font-family: sans-serif;
+            
+        }
+        .footeritem a{
+            color: rgb(227, 227, 227);
+            text-decoration:none;
+            font-family:sans-serif;
+            font-weight: thin;
+            font-size: 12px;
+        }
+        .footeritem li{
+            margin: 7px 0;
+        }
+        .display1{
+            display: flex;
+            padding-top: 10px;
+        }
+        .display2{
+            display: flex;
+            margin-top: 40px;
+            margin-bottom: 70px;
+        }
+        .footeritem{
+            margin-right: 20%;
+            float: left;
+            
+        }
+
+        .btn{
+            width: 100%;
+            text-decoration: none;
+            color: #1a3a3a;
+            padding: 12px 0px;
+            background-color: white;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            display: block;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .foot2 p{
+            text-align: center;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin: 20px 0;
+        }
+        hr{
+            color: white;
+        }
+        .primaryfooter h3{
+            font-family: sans-serif;
+            color: rgb(244, 244, 244);
+            font-size: 13px;
+            font-weight: 100;
+        }
+
+        .logo{
+            display: none;
+        }
+        .nav-holder a{
+            font-size: 20px;
+            color: white;
+            font-weight: 400;
+            text-transform: capitalize;
+            text-align: right;
+            padding-right:10px;
+            font-size: 1.3em;
+            display: block;
+            margin-top: 15px;
+        }
+        .mover{
+            padding-left: 30px;
+        }
+        .offers{
+            border-right: 2px solid #1a3a3a;
+
+            background-color: white;
+            color: black;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 150%;
+            border-radius: 5px;
+            padding-left: 10px;
+            border-right: 5px solid #194545;
+            box-shadow: 0px 4px 5px rgb(111 111 111 / 30%), 0px 6px 8px rgb(245 245 245 / 19%);
+        }
+        nav{
+            display: block;
+            background-color: #1a3a3a;
+            height: 100vh;
+            width: 66%;
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            display: none;
+            z-index: 999;
+            padding-right: 10px;
+            text-align: right;
+
+            position: fixed;
+        }
+
+        .nav.menu-btn{
+            display: none;
+        }
+        .mobile-menu{
+            cursor: pointer;
+
+        }
+        .mobile-menu-exit{
+            cursor: pointer;
+
+        }
+        #close{
+            margin:20px 0px 45px 10px;
+            width: 30px;
+            height:30px;
+            /* float: right; */
+            display: block;
+            position: relative;
+            right: -97px;   
+            
+        }
+}
+@media only screen and (min-width:540) {
+    #aboutminifooter{
+        background-color: greenyellow;
+    }    
+}
