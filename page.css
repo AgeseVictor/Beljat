@@ -217,9 +217,6 @@
 
 
    /* ==================== CONTACT SECTION ================ */
-  .contactheroimage{
-    width: 400px;
-  }
  }
 
 
@@ -278,9 +275,6 @@
 
    /* ==================== CONTACT SECTION ================ */
   
-  .contactheroimage{
-    width: 100%;
-  }
 
 
 }
@@ -336,13 +330,6 @@
 }
 
    /* ==================== CONTACT SECTION ================ */
-  .contactheroholder{
-    display: flex;
-    justify-content: space-between;
-  }
-   .contactheroimage{
-    width: 300px;
-  }
 
 
 
@@ -373,15 +360,18 @@
       margin-right: 25px;
       font-family: Arial, Helvetica, sans-serif;
   }
+/* 
   .rounded{
     margin-top: 5px;
-  }
+  } */
+
   ul.primary-nav{
       margin: 0%;
   }
   li.current a{
       font-weight: bold;
   }
+/* 
   li.rounded a{
       color: #1a3a3a;
       border: 2px solid #1a3a3a;
@@ -390,7 +380,8 @@
       margin-top: -.2em;
       font-weight: 400;
       padding: 5px 10px;
-  }
+  } */
+
   .navbar .container1{
       display: grid;
       grid-template-columns: 180px auto;
@@ -488,9 +479,6 @@
 
    /* ==================== CONTACT SECTION ================ */
   
-   .contactheroimage{
-     width: 400px;
-   }
 
 
 }
@@ -529,25 +517,6 @@
 /* ===================== CONTACT SERVICES ============== */
   
   
-  
-} 
-@media only screen and (min-width:834px) {
-  .valueholder{
-    margin-left: 55px;
-  }
-  .herotext{
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 20px;
-  }
-  .heroimage{
-    width: 500px;
-    margin-right: -15px;
-    margin-top: -50px;
-  }
-  .offerholder .offers{
-    color: rgb(30, 29, 29);
-  }
 
   /* ========== ABOUT SECTION ============ */
   .aboutvalueholder{
@@ -590,9 +559,9 @@
                       width: 580px;
                       margin-left: -70px;
                   }
-                  .content1{
+                  /* .content1{
                       padding: 10em 4em;
-                  }
+                  } */
                   .container1{
                       padding: 0 4em;
                   }
@@ -873,6 +842,8 @@
    .servicesoffersholder .servicesoffers{
      width: 59%;
    }
+
+   /* ================ CONTACT SECTION ==================== */
 
 
 

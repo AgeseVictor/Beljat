@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact beljat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container1">
+        <a href="#" class="logo">Beljat<span>cycle</span></a>
+        <img
+          id="mobile-cta"
+          class="mobile-menu-exit"
+          src="/Assets/hamburger.png"
+          alt=""
+        />
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="/Assets/close.png"
+            alt=""
+          />
+
+          <ul class="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+        </nav>
+        
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="primaryfooter">
+        <div class="minifooter">
+          <div class="foot1">
+            <div class="footeritem">
+              <ul>
+                <li><p>About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our impact</a></li>
+                <li><a href="#">Stewardship</a></li>
+                <li><a href="#">Awards</a></li>
+              </ul>
+            </div>
+            <div class="footeritem">
+              <ul>
+                <li><p>individuals</a></li>
+                <li><a href="#">Contribute</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </div>
+            <div class="footeritem">
+              <ul>
+                <li><p>Businesses</a></li>
+                <li><a href="#">Partner with us</a></li>
+                <li><a href="#">Our partners</a></li>
+                <li><a href="#">impact program</a></li>
+                <li><a href="#">Supporter program</a></li>
+              </ul>
+            </div>
+            <div class="footeritem">
+              <ul>
+                <li><p>Resources</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms & condition</a></li>
+                <li><a href="#">Cookie preference</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="foot2">
+            <p>JOIN THE MOVEMENT</p>
+            <a href="#" class="btn">Become a steward</a>
+            <p style="text-transform:none;">Start stopping ocean plastic and receive a digital certificate with your name on it!</p>
+          </div>
+        </div>
+        <hr>
+        <div class="last">
+         <h3>&copy;2022 Beljat Cycle. All rights reserved.</h3>
+
+        </div>
+      </div>
+      </div>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta");
+      nav = document.querySelector("nav");
+      mobileBtnExit = document.getElementById("mobile-exit");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.remove("menu-btn");
+      });
+    </script>
+  </body>
+</html>

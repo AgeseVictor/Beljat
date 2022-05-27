@@ -1,8 +1,14 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+}
 body{
     /* background-color: whitesmoke; */
     margin: 0%;
     padding: 0%;
     font-family: poppins;
+    overflow: scroll;
 }
 .navbar{
     background-color: white;
@@ -13,7 +19,6 @@ body{
     width: 100%;
 
 }
-.container1
 .logo{
     text-decoration: none;
     font-weight: bold;
@@ -194,6 +199,10 @@ nav.mobile-btn{
     font-family: sans-serif;
 
 }
+.btn:hover{
+    background-color: #27aa83;
+    color: white;
+}
 .footeritem p{
     color: white;
 
@@ -263,8 +272,6 @@ hr{
     border-radius: 4px;
     margin: 0 auto;
 }
-#aboutfooter{
-}
 
 
 
@@ -292,3 +299,4 @@ hr{
     text-align: center;
     font-size: 20px;
 }
+/* ================= CONTACT SECTION ==================== */
