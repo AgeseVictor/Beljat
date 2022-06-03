@@ -182,669 +182,685 @@
 }
  */
  @media only screen and (min-width:504px) {
-   body{
-     background-color: white;
-   }
-   .valueholder{
-     margin-left: 49px;
-   }
-   .article1,.article2{
-     padding: 0 20px;
-   }
-   .content3,.content4{
-     padding: 0 40px;
-   }
-   
-
-
-   /* ================ ABOUT SECTION ================== */
-   .aboutheroimage{
-    width: 100%;
-    margin: 0 auto;
+  body{
+    background-color: white;
   }
-  .aboutvalueholder{
-    margin-right:90px;
+  .valueholder{
+    margin-left: 49px;
   }
-  .aboutvalue2 h1{
-    text-align: center;
+  .article1,.article2{
+    padding: 0 20px;
   }
-  /* =================== SERVICES SECTION ================= */
-     .servicesheroimage{
-       width: 90%;
-       margin: 0% auto;
-     }
-
-
-
-   /* ==================== CONTACT SECTION ================ */
- }
-
-
-
-
-
-
- @media only screen and (min-width:540px){
-  .foot1{
-      font-family: sans-serif,Arial, Helvetica, sans-serif;
-      padding:20px;
-  }
-  .foot2{
-      font-family: sans-serif;
-      
+  .content3,.content4{
+    padding: 0 40px;
   }
   
-/*   
-  .display1{
-      display: flex;
-      justify-content: space-between;
-      text-align: left;
-      margin: 0% 70px;
-  }
-  .mover{
-      margin-right: 23px;
-  }
-  .display2{
-      display: flex;
-      justify-content: space-between;
-      text-align: left;
-      margin: 0% 70px;
 
-  } */
-  .worldimg{
-    display: none;
+
+  /* ================ ABOUT SECTION ================== */
+  .aboutheroimage{
+   width: 100%;
+   margin: 0 auto;
+ }
+ .aboutvalueholder{
+   margin-right:90px;
+ }
+ .aboutvalue2 h1{
+   text-align: center;
+ }
+ /* =================== SERVICES SECTION ================= */
+    .servicesheroimage{
+      width: 90%;
+      margin: 0% auto;
+    }
+
+
+
+  /* ==================== CONTACT SECTION ================ */
+}
+.okoroheroimage{
+    width: 80%;
+    margin: 0 0 0 20px ;
+}
+
+
+
+
+
+@media only screen and (min-width:540px){
+ .foot1{
+     font-family: sans-serif,Arial, Helvetica, sans-serif;
+     padding:20px;
+ }
+ .foot2{
+     font-family: sans-serif;
+     
+ }
+ 
+/*   
+ .display1{
+     display: flex;
+     justify-content: space-between;
+     text-align: left;
+     margin: 0% 70px;
+ }
+ .mover{
+     margin-right: 23px;
+ }
+ .display2{
+     display: flex;
+     justify-content: space-between;
+     text-align: left;
+     margin: 0% 70px;
+
+ } */
+ .worldimg{
+   display: none;
+ }
+  .valueholder{
+    margin-left: 70px;
   }
-   .valueholder{
-     margin-left: 70px;
-   }
-   .article1,.article2{
-     padding: 0 12px;
-   }
-   /* ================ ABOUT SECTION ================== */
-   .aboutminifooter{
-     display: block
-   }
-   .aboutheroimage{
-     width: 100%;
-     margin:0 auto;
-   }
+  .article1,.article2{
+    padding: 0 12px;
+  }
+  /* ================ ABOUT SECTION ================== */
+  .aboutminifooter{
+    display: block
+  }
+  .aboutheroimage{
+    width: 100%;
+    margin:0 auto;
+  }
 
 
 /* =================== SERVICES SECTION ================= */
-  
+ 
 
-   /* ==================== CONTACT SECTION ================ */
-  
+  /* ==================== CONTACT SECTION ================ */
+ 
 
 
 }
 @media only screen and (min-width:730px) {
-  .heroholder{
-    display: flex;
-  }
-  .herotext{
-    width: 300px;
-    text-align: left;
-    float: left;
-    display: block;
-    margin-top: 80px;
-  }
-  .heroimage{
-    width: 400px;
-  }
-  .article1,.article2{
-    padding:0 50px;
-  }
+ .heroholder{
+   display: flex;
+ }
+ .herotext{
+   width: 300px;
+   text-align: left;
+   float: left;
+   display: block;
+   margin-top: 80px;
+ }
+ .heroimage{
+   width: 400px;
+ }
+ .article1,.article2{
+   padding:0 50px;
+ }
 /* ==================== ABOUT SECTION ========================= */
-  .aboutheroimage{
-    width: 400px;
-    margin:0 auto;
-  }
-  .aboutherotext{
-    width: 300px;
-    text-align: left;
-    float: left;
-    display: block;
-    margin-top: 80px;
+ .aboutheroimage{
+   width: 400px;
+   margin:0 auto;
+ }
+ .aboutherotext{
+   width: 300px;
+   text-align: left;
+   float: left;
+   display: block;
+   margin-top: 80px;
+}
+.aboutheroholder{
+   display: flex;
 }
 /* =================== SERVICES SECTION ================= */
 .servicesheroholder{
-  display: flex;
+ display: flex;
 }.servicesheroimage{
-  width: 400px;
-  margin:0 auto;
-  /* background-color: #091a1a; */
+ width: 400px;
+ margin:0 auto;
+ /* background-color: #091a1a; */
 }
 .servicesherotext{
-  width: 300px;
-  text-align: left;
-  /* float: left; */
-  display: block;
-  margin-top: 80px;
-  margin-left: 20px;
+ width: 300px;
+ text-align: left;
+ /* float: left; */
+ display: block;
+ margin-top: 80px;
+ margin-left: 20px;
 }
 .servicesproduct{
-  padding: 0% 20px;
-  color: rgb(33, 30, 30);
+ padding: 0% 20px;
+ color: rgb(33, 30, 30);
 
 }
 
-   /* ==================== CONTACT SECTION ================ */
+  /* ==================== CONTACT SECTION ================ */
 
-
+.okoroheroimage{
+   width: 400px;
+   height: 500px;
+}
 
 }
 
 
 
 @media only screen and (min-width:768px){
-  .navbar nav{
-      display: flex;
-      justify-content: space-between;
-      background-color: none;
-      position: unset;
-      height: auto;
-      width: 100%;
-      padding:0;
+ .navbar nav{
+     display: flex;
+     justify-content: space-between;
+     background-color: none;
+     position: unset;
+     height: auto;
+     width: 100%;
+     padding:0;
+     background-color: white;
+ }
+ nav ul{
+     display: flex;
+
+ }
+ nav a{
+     color: #1a3a3a;
+     font-size: 1em;
+     padding: .1em .1em;
+     margin-top: 5px;
+     margin-right: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+/* 
+ .rounded{
+   margin-top: 5px;
+ } */
+
+ ul.primary-nav{
+     margin: 0%;
+ }
+ li.current a{
+     font-weight: bold;
+ }
+/* 
+ li.rounded a{
+     color: #1a3a3a;
+     border: 2px solid #1a3a3a;
+     font-weight: bold;
+     border-radius: 5em;
+     margin-top: -.2em;
+     font-weight: 400;
+     padding: 5px 10px;
+ } */
+
+ .navbar .container1{
+     display: grid;
+     grid-template-columns: 180px auto;
+ }
+ .herotext{
+     text-align: left;
+     padding-top: 20px;
+     margin-left: 20px;
+ }
+ .heroimage{
+   /* margin-left: -180px; */
+   width: 450px;
+ }
+ .minifooter{
+     display: flex;
+     text-align: center;
+ }
+ .foot1{
+     width: 70%;
+ }
+ .foot2{
+     width: 30%;
+     text-align: left;
+ }
+ .footeritem{
+     float: left;
+     text-align: left;
+     margin: 0% 15px;
+     margin-left: 9px;
+ }
+
+ .mobile-menu,.mobile-menu-exit{
+     display: none;
+ 
+ }
+ .valueholder{
+     margin-left: 50px;
+     /* margin: 0px auto; */
+ }
+ .last p{
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 12px;
+     font-weight: 100;
+     letter-spacing: 1px;
+ }
+ .offers{
+     width: 650px;
+     background-color: whitesmoke;
+     /* float: left; */
+     margin: 0% auto;
+     border-radius: 4px;
+ }
+
+/* ==================== ABOUT SECTION ========================= */
+.aboutheroimage{
+ width: 300px;
+}
+.aboutherotext{
+ text-align: left;
+ padding-top: 20px;
+ margin-left: 20px;
+ margin-top: -3px;
+}
+.aboutheroholder{
+ display: flex;
+}
+.aboutarticle1{
+ width: 40%;
+ float: right;
+ clear: both;
+ margin:20px 70px 20px 0 ;
+}
+.aboutproinfo12{
+ width: 40%;
+ float: left;
+ clear: both;
+ margin-left: 70px;
+ margin:20px 0px 20px 70px ;
+
+}
+.aboutvalueholder{
+ margin-right: 60px;
+}
+#footer{
+ clear: both;
+}
+/* =================== SERVICES SECTION ================= */
+  .servicesoffersholder .servicesoffers{
+    width: 59%;
+  }
+
+
+
+  /* ==================== CONTACT SECTION ================ */
+ 
+.okorocontent2{
+   /* height: 50vh; */
+   /* background-color: #091a1a; */
+}
+
+}
+
+
+
+
+
+
+        
+@media only screen and (min-width:810px) {
+ .valueholder{
+   margin-left: 55px;
+ }
+ .herotext{
+   margin-top: 50px;
+   text-align: justify;
+   margin-left: 20px;
+ }
+ .heroimage{
+   width: 500px;
+   margin-left: 15px;
+ }
+ .offerholder .offers{
+   color: rgb(30, 29, 29);
+ }
+ /* ========== ABOUT SECTION ============ */
+ .aboutvalueholder{
+   margin-right: 75px;
+ }  .aboutvalueholder{
+  margin-right: 90px;
+}
+ /* =================== SERVICES SECTION ================= */
+    .servicesoffersholder .servicesoffers{
+      width: 59%;
+    }
+    /* ============ Contact Section =============== */
+    .okoroherotext{
+        /* background-color: #091a1a; */
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .okoroheroimage{
+        margin-top: -50px;
+    }
+
+ 
+ 
+}
+
+
+@media only screen and (min-width:1010px) {
+                 .valueholder{
+                     display: flex;
+                     justify-content: space-between;
+                     text-align: center;
+                     transition: 0.5s cubic-bezier(5.075, 0.82, 3.165, 1);
+
+                 }
+                 .hero{
+                     display: flex;
+                     justify-content: space-between;
+
+                 }
+                 .herotext{
+                     font-size: 23px;
+                     margin: 2em 5em -3em 0em;
+                     width: 300px;
+
+                 }
+                 .herotext p{
+                   font-size: 25px;
+                 }
+                 .heroimage img{
+                     /* width: 100%; */
+                     width: 580px;
+                     margin-left: -70px;
+                 }
+                 /* .content1{
+                     padding: 10em 4em;
+                 } */
+                 .container1{
+                     padding: 0 4em;
+                 }
+                 .offers{
+                     margin-right: 500px;
+                     width: 550px;
+                 }
+                 .valueholder{
+                     margin:0px auto;
+                 }
+                 .mover{
+                     margin: none;
+                 }
+                 .heroholder{
+                     display: flex;
+                 }
+                 /* =========== SERVICES SECTION ========== */
+                 .servicesherotext{
+                   font-size:27px ;
+                   margin-top: -10px;
+                   width: 450px;
+                 }
+                 .servicesherotext P{
+                   font-size: 20px;
+                 }
+                 .servicesheroimage img{
+                   margin-left: 90px;
+                   margin-top: -10px;
+                 }
+
+ /* ================== ABOUT SECTION ============ */
+ .aboutvalueholder{
+   margin-right: 89px;
+ }
+ /* ================= SERVICES SECTION ============= */
+}
+@media only screen and (min-width:1024) {
+ .aboutvalueholder1{
+   margin-right: -2009px;
+ }
+ /* =================== SERVICES SECTION ================= */
+    .servicesherotext{
+      font-size:90px ;
+      margin-top: -90px;
+      background-color: #091a1a;
+    }
+ 
+ 
+ 
+}
+
+
+@media only screen and (min-width:1250px){
+ .valueholder{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+
+ }
+ .nav a{
+     font-size: 16px;
+     font-weight: bold;
+ }
+ .hero{
+     display: flex;
+     justify-content: space-between;
+
+ }
+ .herotext{
+     font-size: 40px;
+     margin: 2em 5em -3em 0em;
+     width: 400px;
+     text-align: left;
+
+ }
+ .heroimage img{
+     /* width: 100%; */
+     width: 800px;
+     /* position: relative; */
+     /* z-index: 999; */
+     /* right: 100px; */
+     margin-left: -80px;
+     margin-top: -50px;
+ }
+ .herotext p{
+     font-size: 20px;
+ }
+ .current{
+     text-decoration: underline;
+ }
+ .content1{
+     padding: 10em 4em;
+ }
+ .valueholder{
+     width: 630px;
+     float: none;
+     margin: 0px auto;
+     margin:0px auto;
+   transition: 0.5s ease-in-out;
+   flex-wrap: wrap;
+
+
+ }
+ .value2 h2{
+   color: #1a3a3a;
+   font-size: 45px;
+ }
+ .container1{
+     padding: 0 4em;
+ }
+ .offers{ 
       background-color: white;
-  }
-  nav ul{
-      display: flex;
-
-  }
-  nav a{
-      color: #1a3a3a;
-      font-size: 1em;
-      padding: .1em .1em;
-      margin-top: 5px;
-      margin-right: 25px;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-/* 
-  .rounded{
-    margin-top: 5px;
-  } */
-
-  ul.primary-nav{
-      margin: 0%;
-  }
-  li.current a{
-      font-weight: bold;
-  }
-/* 
-  li.rounded a{
-      color: #1a3a3a;
-      border: 2px solid #1a3a3a;
-      font-weight: bold;
-      border-radius: 5em;
-      margin-top: -.2em;
-      font-weight: 400;
-      padding: 5px 10px;
-  } */
-
-  .navbar .container1{
-      display: grid;
-      grid-template-columns: 180px auto;
-  }
-  .herotext{
-      text-align: left;
-      padding-top: 20px;
-      margin-left: 20px;
-  }
-  .heroimage{
-    /* margin-left: -180px; */
-    width: 450px;
-  }
-  .minifooter{
-      display: flex;
-      text-align: center;
+     color: black;
+     display:inline-block;
+     margin-bottom: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right: 10px;
+     line-height: 150%;
+     border-radius: 4px;
+     padding-left: 10px;
+     border-right: 5px solid #194545;
+     box-shadow: 0px 4px 5px rgba(111, 111, 111, 0.3),0px 6px 8px rgba(245, 245, 245, 0.19);
+   }
+ 
+ .mover{
+     margin: none;
+ }
+ .proinfo{
+     width: 40%;
+     background-color: whitesmoke;
+     padding: 20px;
+     float: left;
+     border-radius: 10px;
+     line-height: 180%;
+ }
+ .article2{
+     width: 50%;
+     float: right;
+     background-color: whitesmoke;
+     padding: 25px;
+     border-radius: 10px;
+     line-height: 180%;
+     margin-bottom: 500px;
+ }
+ .content4{
+     clear: both;
+     padding: 0px 50px;
+     background-color: whitesmoke;
+     /* margin-top: 1100px; */
+ }
+ #logos{
+     width: 50px;
+     line-height: 60px;
+     margin:0px -12px -12px 0px;
+     /* vertical-align: middle; */
+     /* background-color: #194545; */
+ }
+ .content4 h1{
+     text-align: center;
+     margin: 50px;
+     color: #194545;
+ }
+ .heroholder{
+     display: flex;
+ }
+ .benefit{
+     display: flex;
+     justify-content: space-between;
+ }
+ .benefitholder{
+     display: flex;
+ }
+ .worldimg{
+   display: block;
+ }
+ .benefit2{
+     margin: 30px 20px;
+   }
+ /* }
+ .mover{
+   margin-left: 15px;
+ } */
+ .benefit1{
+     background-color: white;
+     color: #1a3a3a;
+     width: 700px;  width: 600px;
+     line-height: 160%;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 20px;
+     border-radius: 15px;
+     height: 450px;
+   }
+ .bene1{
+     width: 400px;
+     background-color: #1a3a3a;
+     color: white;
+     clear: both;background-color: #1b6262;
+     color: white;
+     width: 400px;
+     line-height: 160%;
+     float: right;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 20px;
+     border-radius: 15px;
+     margin-left: 100px;
+ }
+  #footer{
+      padding: 65px 200px 0px 200px;
+      height: 330px;
+      
   }
   .foot1{
-      width: 70%;
+    margin: 0%;
+    float: none;
+    padding: none;
   }
-  .foot2{
-      width: 30%;
-      text-align: left;
-  }
-  .footeritem{
-      float: left;
-      text-align: left;
-      margin: 0% 15px;
-      margin-left: 9px;
-  }
-
-  .mobile-menu,.mobile-menu-exit{
-      display: none;
-  
-  }
-  .valueholder{
-      margin-left: 50px;
-      /* margin: 0px auto; */
-  }
-  .last p{
+  .last h3{
       font-family: Arial, Helvetica, sans-serif;
       color: white;
       font-size: 12px;
       font-weight: 100;
       letter-spacing: 1px;
   }
-  .offers{
-      width: 650px;
-      background-color: whitesmoke;
-      /* float: left; */
-      margin: 0% auto;
-      border-radius: 4px;
-  }
-
-
-/* ==================== ABOUT SECTION ========================= */
-.aboutheroimage{
-  width: 300px;
-}
-.aboutherotext{
-  text-align: left;
-  padding-top: 20px;
-  margin-left: 20px;
-  margin-top: -3px;
-}
-.aboutheroholder{
-  display: flex;
-}
-.aboutarticle1{
-  width: 40%;
-  float: right;
-  clear: both;
-  margin:20px 70px 20px 0 ;
-}
-.aboutproinfo12{
-  width: 40%;
-  float: left;
-  clear: both;
-  margin-left: 70px;
-  margin:20px 0px 20px 70px ;
-
-}
-.aboutvalueholder{
-  margin-right: 60px;
-}
-#footer{
-  clear: both;
-}
-/* =================== SERVICES SECTION ================= */
-   .servicesoffersholder .servicesoffers{
-     width: 59%;
-   }
-
-
-
-   /* ==================== CONTACT SECTION ================ */
-  
-
-
-}
-
-
-
-
-
-
-         
-@media only screen and (min-width:810px) {
-  .valueholder{
-    margin-left: 55px;
-  }
-  .herotext{
-    margin-top: 50px;
-    text-align: justify;
-    margin-left: 20px;
-  }
-  .heroimage{
-    width: 500px;
-    margin-left: 15px;
-  }
-  .offerholder .offers{
-    color: rgb(30, 29, 29);
-  }
-  /* ========== ABOUT SECTION ============ */
-  .aboutvalueholder{
-    margin-right: 75px;
-  }
-  /* =================== SERVICES SECTION ================= */
-     .servicesoffersholder .servicesoffers{
-       width: 59%;
-     }
-
-/* ===================== CONTACT SERVICES ============== */
-  
-  
-
-  /* ========== ABOUT SECTION ============ */
-  .aboutvalueholder{
-    margin-right: 90px;
-  }
-  /* =================== SERVICES SECTION ================= */
-     .servicesoffersholder .servicesoffers{
-       width: 59%;
-     }
-  
-  
-  
-}
-
-
-@media only screen and (min-width:1010px) {
-                  .valueholder{
-                      display: flex;
-                      justify-content: space-between;
-                      text-align: center;
-                      transition: 0.5s cubic-bezier(5.075, 0.82, 3.165, 1);
-
-                  }
-                  .hero{
-                      display: flex;
-                      justify-content: space-between;
-
-                  }
-                  .herotext{
-                      font-size: 23px;
-                      margin: 2em 5em -3em 0em;
-                      width: 300px;
-
-                  }
-                  .herotext p{
-                    font-size: 25px;
-                  }
-                  .heroimage img{
-                      /* width: 100%; */
-                      width: 580px;
-                      margin-left: -70px;
-                  }
-                  /* .content1{
-                      padding: 10em 4em;
-                  } */
-                  .container1{
-                      padding: 0 4em;
-                  }
-                  .offers{
-                      margin-right: 500px;
-                      width: 550px;
-                  }
-                  .valueholder{
-                      margin:0px auto;
-                  }
-                  .mover{
-                      margin: none;
-                  }
-                  .heroholder{
-                      display: flex;
-                  }
-                  /* =========== SERVICES SECTION ========== */
-                  .servicesherotext{
-                    font-size:27px ;
-                    margin-top: -10px;
-                    width: 450px;
-                  }
-                  .servicesherotext P{
-                    font-size: 20px;
-                  }
-                  .servicesheroimage img{
-                    margin-left: 90px;
-                    margin-top: -10px;
-                  }
-                  .valueholder:hover{
-                    transform: scale(1.03,1.03);
-                  }
-
-  /* ================== ABOUT SECTION ============ */
-  .aboutvalueholder{
-    margin-right: 89px;
-  }
-  /* ================= SERVICES SECTION ============= */
-}
-@media only screen and (min-width:1024) {
-  .aboutvalueholder1{
-    margin-right: -2009px;
-  }
-  /* =================== SERVICES SECTION ================= */
-     .servicesherotext{
-       font-size:90px ;
-       margin-top: -90px;
-       background-color: #091a1a;
-     }
-  
-  
-  
-}
-
-
-@media only screen and (min-width:1250px){
-  .valueholder{
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-
-  }
-  .nav a{
-      font-size: 16px;
-      font-weight: bold;
-  }
-  .hero{
-      display: flex;
-      justify-content: space-between;
-
-  }
-  .herotext{
-      font-size: 40px;
-      margin: 2em 5em -3em 0em;
-      width: 400px;
-      text-align: left;
-
-  }
-  .heroimage img{
-      /* width: 100%; */
-      width: 800px;
-      /* position: relative; */
-      /* z-index: 999; */
-      /* right: 100px; */
-      margin-left: -80px;
-      margin-top: -50px;
-  }
-  .herotext p{
-      font-size: 20px;
-  }
-  .current{
-      text-decoration: underline;
-  }
-  .content1{
-      padding: 10em 4em;
-  }
-  .valueholder{
-      width: 630px;
-      float: none;
-      margin: 0px auto;
-      margin:0px auto;
-    transition: 0.5s ease-in-out;
-    flex-wrap: wrap;
-
-
-  }
-  .valueholder:hover{
-    transform: scale(1.03,1.03);
-  }
-  .value2 h2{
-    color: #1a3a3a;
-    font-size: 45px;
-  }
-  .container1{
-      padding: 0 4em;
-  }
-  .offers{ 
-       background-color: white;
-      color: black;
-      display:inline-block;
-      margin-bottom: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-right: 10px;
-      line-height: 150%;
-      border-radius: 4px;
-      padding-left: 10px;
-      border-right: 5px solid #194545;
-      box-shadow: 0px 4px 5px rgba(111, 111, 111, 0.3),0px 6px 8px rgba(245, 245, 245, 0.19);
-    }
-  
-  .mover{
-      margin: none;
-  }
-  .proinfo{
-      width: 40%;
-      background-color: whitesmoke;
-      padding: 20px;
-      float: left;
-      border-radius: 10px;
-      line-height: 180%;
-  }
-  .article2{
-      width: 50%;
-      float: right;
-      background-color: whitesmoke;
-      padding: 25px;
-      border-radius: 10px;
-      line-height: 180%;
-      margin-bottom: 500px;
-  }
-  .content4{
-      clear: both;
-      padding: 0px 50px;
-      background-color: whitesmoke;
-      /* margin-top: 1100px; */
-  }
-  .content4 h1{
-      text-align: center;
-      margin: 50px;
-      color: #194545;
-  }
-  .heroholder{
-      display: flex;
-  }
-  .benefit{
-      display: flex;
-      justify-content: space-between;
-  }
-  .benefitholder{
-      display: flex;
-  }
-  .worldimg{
-    display: block;
-  }
-  .benefit2{
-      margin: 30px 20px;
-    }
-  /* }
-  .mover{
-    margin-left: 15px;
-  } */
   .benefit1{
-      background-color: white;
-      color: #1a3a3a;
-      width: 700px;  width: 600px;
-      line-height: 160%;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 20px;
-      border-radius: 15px;
-      height: 450px;
-    }
-  .bene1{
-      width: 400px;
-      background-color: #1a3a3a;
-      color: white;
-      clear: both;background-color: #1b6262;
-      color: white;
-      width: 400px;
-      line-height: 160%;
-      float: right;
-      padding: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 20px;
-      border-radius: 15px;
-      margin-left: 100px;
+    color: #091a1a;
   }
-   #footer{
-       padding: 0% 200px;
-       height: 300px;
-       
-   }
-   .foot1{
-     margin: 0%;
-     float: none;
-     padding: none;
-   }
-   .last h3{
-       font-family: Arial, Helvetica, sans-serif;
-       color: white;
-       font-size: 12px;
-       font-weight: 100;
-       letter-spacing: 1px;
-   }
-   .benefit1{
-     color: #091a1a;
-   }
 
 
 
-   /* ========================= ABOUT SECTION ======================= */   
-  .aboutvalueholder{
+  /* ========================= ABOUT SECTION ======================= */   
+ .aboutvalueholder{
 
-  }
-  .aboutvalue2 h2{
-    color: #1a3a3a;
-    font-size: 45px;
-    text-align: center;
+ }
+ .aboutvalue2 h2{
+   color: #1a3a3a;
+   font-size: 45px;
+   text-align: center;
 
-  }
-  .aboutheroimage{
-    width: 500px;
-    /* margin-left: 80px; */
-    /* margin-top: -10px; */
-  }
-  
-  .aboutherotext{
-    font-size: 580px;
-    text-align: left;
-    /* background-color: #091a1a; */
-    width: 500px;
+ }
+ .aboutheroimage{
+   width: 500px;
+   /* margin-left: 80px; */
+   /* margin-top: -10px; */
+ }
+ 
+ .aboutherotext{
+   font-size: 580px;
+   text-align: left;
+   /* background-color: #091a1a; */
+   width: 500px;
 
 }
 .aboutherotext p{
-  font-size: 20px;
+ font-size: 20px;
 }
 
 .aboutarticle1{
-  width: 30%;
-  float: right;
-  clear: both;
-  margin:20px 150px 20px 0;
-  background-color: white;
+ width: 30%;
+ float: right;
+ clear: both;
+ margin:20px 150px 20px 0;
+ background-color: white;
 }
 .aboutproinfo12{
-  width: 30%;
-  float: left;
-  clear: both;
-  /* margin-left: 70px; */
-  margin:20px 0px 20px 150px ;
-  border-radius: 5px;
-  background-color: white;
+ width: 30%;
+ float: left;
+ clear: both;
+ /* margin-left: 70px; */
+ margin:20px 0px 20px 150px ;
+ border-radius: 5px;
+ background-color: white;
 
 }
 .aboutproinfo12 img{
-  display: none;
+ display: none;
 }
 /* =================== SERVICES SECTION ================= */
-   .servicesoffersholder .servicesoffers{
-     width: 59%;
-   }
-
-   /* ================ CONTACT SECTION ==================== */
-
-
-
+  .servicesoffersholder .servicesoffers{
+    width: 59%;
   }
+
+  /* ================ CONTACT SECTION ==================== */
+  .okoroheroholder{
+      display: flex;
+      justify-content: space-between;
+  }
+  .okoroheroimage{
+      width: 800px;
+      margin-top: 20px;
+  }
+
+ }
